@@ -19,7 +19,7 @@ This is the **back-end** application for the **Todo List App**, built with **Exp
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
