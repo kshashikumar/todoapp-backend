@@ -1,0 +1,47 @@
+Back-End (Express.js)
+
+Setup Instructions
+
+- Clone the repository:
+    git clone https://github.com/kshashikumar/todoapp-backend.git
+    cd todoapp-backend
+
+- Install dependencies: npm install
+
+- Set up environment variables:
+    Create a .env file in the project root.
+    Add the following variables (update with your MySQL credentials):
+    
+    DATABASE_URL="mysql://username:password@localhost:3306/todo_app"
+
+- Initialize the database: npx prisma migrate dev --name init
+
+- Start the server: npm run dev
+
+- Test the API:
+    Access the API endpoints at http://localhost:4000/api
+
+
+
+API Endpoints
+
+/tasks	Fetch all tasks(GET)
+/tasks/:id Fetech a specific task(GET)
+/tasks	Create a new task(POST)
+/tasks/:id	Update a specific task(PUT)
+/tasks/:id	Delete a specific task(DELETE)
+
+
+
+Prisma Database Initialization
+
+Database Setup
+
+- Ensure you have a MySQL database running locally or on a server.
+    Example connection string for .env
+
+    DATABASE_URL="mysql://root:password@localhost:3306/todo_app"
+
+- Run Prisma commands to initialize the database:
+    Generate Prisma Client: npx prisma generate
+    Apply migrations: npx prisma migrate dev --name init
