@@ -1,0 +1,13 @@
+node_modules
+# Keep environment variables out of version control
+.env
+*.tsbuildinfo
+
+prisma/.env
+prisma/migrations/
+prisma/db.sqlite
+prisma/db.sqlite-journal
+
+
+.npm/
+.cache/
