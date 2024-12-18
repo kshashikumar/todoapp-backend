@@ -74,11 +74,11 @@ This is the **back-end** application for the **Todo List App**, built with **Exp
 
 ### API Endpoints
 
-    - `/tasks` Fetch all tasks. (GET)
-    - `/tasks/:id` Fetch a specific task by ID. (GET)
-    - `/tasks/` Create a new task. (POST)
-    - `/tasks/:id` Update a specific task. (PUT)
-    - `/tasks/:id` Delete a specific task. (DELETE)
+    - /tasks        Fetch all tasks.                (GET)
+    - /tasks/:id    Fetch a specific task by ID.    (GET)
+    - /tasks/       Create a new task.              (POST)
+    - /tasks/:id    Update a specific task.         (PUT)
+    - /tasks/:id    Delete a specific task.         (DELETE)
 
 ### Prisma Database Initialization
 
@@ -108,4 +108,4 @@ This is the **back-end** application for the **Todo List App**, built with **Exp
 
 ### Scripts
 
-    - `npm start`: Starts the server.
+    - npm start: Starts the server.
