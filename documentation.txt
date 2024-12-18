@@ -25,11 +25,11 @@ Setup Instructions
 
 API Endpoints
 
-/tasks	Fetch all tasks(GET)
-/tasks/:id Fetech a specific task(GET)
-/tasks	Create a new task(POST)
-/tasks/:id	Update a specific task(PUT)
-/tasks/:id	Delete a specific task(DELETE)
+/tasks	    Fetch all tasks         (GET)
+/tasks/:id  Fetech a specific task  (GET)
+/tasks	    Create a new task       (POST)
+/tasks/:id	Update a specific task  (PUT)
+/tasks/:id	Delete a specific task  (DELETE)
 
 
 
