@@ -41,44 +41,44 @@ This is the **back-end** application for the **Todo List App**, built with **Exp
    ```
 3. Set up environment variables:
 
-- Create a `.env` file in the project root.
-- Add the following variable (update with your MySQL credentials):
+   - Create a `.env` file in the project root.
+   - Add the following variable (update with your MySQL credentials):
 
-```bash
-DATABASE_URL="mysql://username:password@localhost:3306/todo_app"
-```
+   ```bash
+   DATABASE_URL="mysql://username:password@localhost:3306/todo_app"
+   ```
 
 4. Initialize the database:
 
-- Generate the Prisma client
+   - Generate the Prisma client
 
-```bash
-npx prisma generate
-```
+   ```bash
+   npx prisma generate
+   ```
 
-- Apply migrations
+   - Apply migrations
 
-```bash
-npx prisma migrate dev --name init
-```
+   ```bash
+   npx prisma migrate dev --name init
+   ```
 
 5. Start the development server:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 6. Test the API:
 
-- Access the API endpoints at [http://localhost:4000/api](http://localhost:4000/api).
+   - Access the API endpoints at [http://localhost:4000/api](http://localhost:4000/api).
 
 ### API Endpoints
 
-- `/tasks` Fetch all tasks. (GET)
-- `/tasks/:id` Fetch a specific task by ID. (GET)
-- `/tasks/` Create a new task. (POST)
-- `/tasks/:id` Update a specific task. (PUT)
-- `/tasks/:id` Delete a specific task. (DELETE)
+    - `/tasks` Fetch all tasks. (GET)
+    - `/tasks/:id` Fetch a specific task by ID. (GET)
+    - `/tasks/` Create a new task. (POST)
+    - `/tasks/:id` Update a specific task. (PUT)
+    - `/tasks/:id` Delete a specific task. (DELETE)
 
 ### Prisma Database Initialization
 
@@ -86,28 +86,28 @@ npm run dev
 
 1. Ensure you have a running MySQL database.
 
-- Example connection string for `.env`
+   - Example connection string for `.env`
 
-```bash
-DATABASE_URL="mysql://root:password@localhost:3306/todo_app"
-```
+   ```bash
+   DATABASE_URL="mysql://root:password@localhost:3306/todo_app"
+   ```
 
 2. Run Prisma commands:
 
-- Generate the Prisma client:
+   - Generate the Prisma client:
 
-```bash
-npx prisma generate
-```
+   ```bash
+   npx prisma generate
+   ```
 
-- Apply database migrations:
+   - Apply database migrations:
 
-```bash
-npx prisma migrate dev --name init
-```
+   ```bash
+   npx prisma migrate dev --name init
+   ```
 
 ### Scripts
 
-- `npm run dev`: Starts the development server with live reloading.
-- `npm run build`: Compiles the project for production.
-- `npm start`: Starts the compiled production server.
+    - `npm run dev`: Starts the development server with live reloading.
+    - `npm run build`: Compiles the project for production.
+    - `npm start`: Starts the compiled production server.
