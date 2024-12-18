@@ -16,7 +16,7 @@ Setup Instructions
 
 - Initialize the database: npx prisma migrate dev --name init
 
-- Start the server: npm run dev
+- Start the server: npm run start
 
 - Test the API:
     Access the API endpoints at http://localhost:4000/api

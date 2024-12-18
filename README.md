@@ -44,28 +44,28 @@ This is the **back-end** application for the **Todo List App**, built with **Exp
    - Create a `.env` file in the project root.
    - Add the following variable (update with your MySQL credentials):
 
-   ```bash
-   DATABASE_URL="mysql://username:password@localhost:3306/todo_app"
-   ```
+     ```bash
+     DATABASE_URL="mysql://username:password@localhost:3306/todo_app"
+     ```
 
 4. Initialize the database:
 
    - Generate the Prisma client
 
-   ```bash
-   npx prisma generate
-   ```
+     ```bash
+     npx prisma generate
+     ```
 
    - Apply migrations
 
-   ```bash
-   npx prisma migrate dev --name init
-   ```
+     ```bash
+     npx prisma migrate dev --name init
+     ```
 
 5. Start the development server:
 
    ```bash
-   npm run dev
+   npm run start
    ```
 
 6. Test the API:
@@ -88,26 +88,24 @@ This is the **back-end** application for the **Todo List App**, built with **Exp
 
    - Example connection string for `.env`
 
-   ```bash
-   DATABASE_URL="mysql://root:password@localhost:3306/todo_app"
-   ```
+     ```bash
+     DATABASE_URL="mysql://root:password@localhost:3306/todo_app"
+     ```
 
 2. Run Prisma commands:
 
    - Generate the Prisma client:
 
-   ```bash
-   npx prisma generate
-   ```
+     ```bash
+     npx prisma generate
+     ```
 
    - Apply database migrations:
 
-   ```bash
-   npx prisma migrate dev --name init
-   ```
+     ```bash
+     npx prisma migrate dev --name init
+     ```
 
 ### Scripts
 
-    - `npm run dev`: Starts the development server with live reloading.
-    - `npm run build`: Compiles the project for production.
-    - `npm start`: Starts the compiled production server.
+    - `npm start`: Starts the server.
