@@ -108,4 +108,4 @@ This is the **back-end** application for the **Todo List App**, built with **Exp
 
 ### Scripts
 
-    - npm start: Starts the server.
+    - npm start        (Starts the server)
